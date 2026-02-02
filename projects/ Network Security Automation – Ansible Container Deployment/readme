@@ -1,0 +1,98 @@
+# Network Security Automation – Ansible Container Deployment
+
+## Overview
+This project demonstrates the use of **Ansible automation** to securely deploy and manage network services using Docker containers. The focus is on **network segmentation, service isolation, and repeatable infrastructure deployment**, reflecting real-world network security and DevOps practices.
+
+Apache (HTTP) and FTP services were automatically provisioned into **separate Docker networks** with defined subnets to ensure controlled access and predictable network behaviour.
+
+---
+
+## Objectives
+- Automate container deployment using Ansible playbooks
+- Deploy network services in isolated environments
+- Implement network segmentation using Docker subnets
+- Ensure secure, repeatable, and verifiable deployments
+- Apply Infrastructure-as-Code (IaC) principles to network security
+
+---
+
+## Environment
+- Automation Tool: Ansible
+- Container Platform: Docker
+- Target Systems: Kali Linux / Parrot OS
+- Remote Access: SSH
+- Services Deployed:
+  - Apache (HTTP)
+  - FTP (vsftpd)
+
+---
+
+## Architecture & Networking
+- Apache Network: `172.10.0.0/16`
+- FTP Network: `172.20.0.0/16`
+- Each service deployed in a dedicated Docker bridge network
+- Static IP addressing for predictable service access
+- Network design validated through container inspection and connectivity testing
+
+---
+
+## Key Implementations
+
+### Ansible Automation
+- Automated Docker installation and configuration
+- Service management using Ansible modules
+- Reusable and idempotent playbooks
+- SSH-based remote administration
+
+### Container Deployment
+- Creation of custom Docker bridge networks
+- Deployment of Apache container using `httpd:latest`
+- Deployment of FTP container using `fauria/vsftpd:latest`
+- Port mapping and volume mounting
+- Environment variable configuration for FTP authentication
+
+---
+
+## Verification & Testing
+- Verified container deployment using Docker inspection commands
+- Confirmed static IP assignment within configured subnets
+- Tested Apache service accessibility via browser and CLI
+- Validated FTP authentication and file transfer functionality
+- Confirmed network isolation between service containers
+
+---
+
+## Security & DevOps Concepts Demonstrated
+- Network segmentation and isolation
+- Secure service deployment and exposure
+- Infrastructure-as-Code (IaC)
+- Automation and repeatability
+- Container lifecycle management
+- DevOps practices applied to network security
+
+---
+
+## Tools & Technologies
+- Ansible
+- Docker & Docker Networking
+- Apache HTTP Server
+- vsftpd (FTP)
+- Linux (Kali / Parrot)
+- SSH
+
+---
+
+## Evidence
+📄 **PROJECT-CONTAINER.pdf**  
+The attached report contains:
+- Ansible playbooks
+- Network diagrams
+- Deployment verification outputs
+- Configuration details and analysis
+
+---
+
+## Outcome
+- Successfully automated secure container deployment
+- Achieved consistent and repeatable network service provisioning
+- Demonstrated practical network security automation skills
