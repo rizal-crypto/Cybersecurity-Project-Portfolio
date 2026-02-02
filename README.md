@@ -1,142 +1,106 @@
 # Cybersecurity-Project-Portfolio
 Cybersecurity project portfolio showcasing hands-on experience with CTF design, SIEM &amp; IDS/IPS deployment, network vulnerability analysis, and honeypot labs, backed by full technical documentation.
 # Cybersecurity Project Portfolio
+# Cybersecurity Project Portfolio
 
-👋 Hi, I’m Mohamed Rizal Kapat — an MSc Cybersecurity graduate with hands-on experience in offensive and defensive security labs.  
-This repository showcases practical cybersecurity projects focused on real-world attack detection, monitoring, and analysis, backed by full technical documentation.
+👋 Hi, I’m **Mohamed Rizal Kapat**, an MSc Cybersecurity graduate with hands-on experience in offensive security, network security automation, and defensive threat analysis.
+
+This repository showcases practical cybersecurity projects focused on **real-world attack techniques, secure system deployment, automation, and attacker behaviour analysis**, supported by full technical documentation.
 
 ---
 
 ## 🔐 Projects Overview
 
-This portfolio includes three major hands-on cybersecurity projects:
+This portfolio contains hands-on cybersecurity projects designed to demonstrate applied skills commonly used in SOC, network security, and junior DevSecOps roles.
 
-- Capture The Flag (CTF) Virtual Machine
-- Network Vulnerability Analysis & SIEM (DMZ Lab)
-- Honeypot Lab for Attacker Behaviour Analysis
+### Included Projects:
+1. Capture The Flag (CTF) Virtual Machine  
+2. Network Security Automation – Ansible Container Deployment  
+3. Honeypot Lab – Attacker Behaviour Analysis  
 
-Each project demonstrates applied security concepts, tools, and methodologies used in real SOC and security analyst environments.
+Each project includes a dedicated folder with a README and a full technical report for verification.
 
 ---
 
 ## 🧩 1. Capture The Flag (CTF) Virtual Machine
 
-**Platform:** Ubuntu Server 18.04  
+**Focus:** Offensive Security Fundamentals
 
-### Project Summary
-Designed and implemented an educational Capture The Flag (CTF) virtual machine aimed at beginners in cybersecurity. The environment simulates real-world attack scenarios using common services, misconfigurations, and progressive challenges.
+- Designed an educational CTF virtual machine for beginner-level penetration testing
+- Simulated real-world misconfigurations and exposed services
+- Covered service enumeration, Linux permissions, web reconnaissance, steganography, and password cracking
 
-### Tools & Technologies
-- FTP, SSH, Apache, HTTP/HTTPS
-- Linux user & permission management
-- Steganography (image and audio)
-- Hashing (Whirlpool)
-- Brute-force tools: Hydra, John the Ripper, Hashcat
-
-### What Was Implemented
-- Multiple exposed network services to simulate an attack surface
-- Multiple Linux users with restricted directory access
-- Progressive flags distributed across services and file systems
-- Web-based information disclosure via HTML source inspection
-- Steganography-based hidden flags
-- Hash cracking and brute-force challenges
-
-### Skills Demonstrated
-- Service enumeration
-- Linux privilege separation
-- Web reconnaissance
-- Steganography techniques
-- Hash analysis and password cracking
-
-📄 **Full Technical Report:**  
-`projects/ctf/CTF_Report.pdf`
+📁 Folder: `projects/ctf/`  
+📄 Evidence: Full technical report included
 
 ---
 
-## 🌐 2. Network Vulnerability Analysis & SIEM (DMZ Lab)
+## 🌐 2. Network Security Automation – Ansible Container Deployment
 
-### Project Summary
-Performed a vulnerability assessment on a DMZ-hosted server in a simulated enterprise environment. Implemented centralized logging and intrusion detection to monitor, detect, and analyze malicious activity.
+**Focus:** Network Security, Automation, DevOps
 
-### Tools & Technologies
-- ELK Stack (Elasticsearch, Logstash, Kibana, Filebeat)
-- Suricata IDS/IPS
-- UFW Firewall
-- OWASP Juice Shop
-- Kali Linux
+- Automated deployment and administration of Docker containers using Ansible
+- Deployed Apache and FTP services in isolated Docker networks
+- Implemented network segmentation using custom subnets
+- Verified service accessibility and secure remote administration via SSH
 
-### What Was Implemented
-- Multi-VM DMZ architecture
-- Centralized log collection and visualization using ELK Stack
-- IDS/IPS alerting using Suricata
-- Firewall rule enforcement and traffic control
-- Simulated attacks including SQL injection and authentication flaws
-
-### Key Findings
-- Identified critical vulnerabilities such as SQL injection and broken authentication
-- Verified real-time attack detection and logging
-- Conducted risk assessment and proposed mitigation strategies
-
-### Skills Demonstrated
-- SIEM deployment and log analysis
-- IDS/IPS monitoring
-- Network security architecture
-- Vulnerability assessment and risk analysis
-
-📄 **Full Technical Report:**  
-`projects/siem-dmz/Network_Vulnerability_Report.pdf`
+📁 Folder: `projects/ansible-container/`  
+📄 Evidence: Full technical report included
 
 ---
 
 ## 🪤 3. Honeypot Lab – Attacker Behaviour Analysis
 
-### Project Summary
-Designed and deployed a secure honeypot lab to capture attacker interactions and analyze malware distribution techniques while maintaining strict isolation from production systems.
+**Focus:** Defensive Security & Threat Intelligence
 
-### Tools & Technologies
-- Windows 10 Honeypot VM
-- pfSense Firewall (WAN / LAN / DMZ)
+- Designed and deployed a secure honeypot environment
+- Captured attacker interactions and malicious traffic
+- Enforced strict network isolation using firewall rules
+- Analyzed attacker tactics, techniques, and procedures (TTPs)
+
+📁 Folder: `projects/honeypot/`  
+📄 Evidence: Full technical report included
+
+---
+
+## 🛠️ Skills & Technologies
+
+**Security Domains**
+- Offensive & Defensive Security
+- Network Security & Segmentation
+- Automation & Secure Deployment
+- Threat Analysis & Monitoring
+
+**Tools & Technologies**
+- Linux (Ubuntu, Kali Linux), Windows
+- Ansible, Docker
 - ELK Stack
-- Maltego Casefile
-- WinPcap
-
-### What Was Implemented
-- Deployment of an exposed honeypot system
-- Firewall-based network isolation using pfSense
-- Capture of attacker interactions and packet-level traffic
-- Centralized log aggregation and analysis
-- Analysis of attacker tactics, techniques, and procedures (TTPs)
-
-### Skills Demonstrated
-- Honeypot deployment and management
-- Firewall and gateway security
-- Network traffic capture and forensic analysis
-- Threat intelligence collection
-
-📄 **Full Technical Report:**  
-`projects/honeypot/Honeypot_Report.pdf`
+- pfSense Firewall
+- Hydra, John the Ripper, Hashcat
+- Steganography & Hashing Techniques
 
 ---
 
 ## 🎯 Career Focus
 
-I am actively seeking entry-level or junior roles such as:
+I am seeking entry-level or junior roles such as:
 - SOC Analyst
 - Cybersecurity Analyst
 - Network Security Engineer
+- Junior DevSecOps Engineer
 
 ---
 
 ## 📎 Supporting Documentation
 
-Each project is backed by a comprehensive technical report containing:
-- Configuration steps
-- Commands used
-- Verification outputs
+Each project includes a comprehensive technical report containing:
+- Configuration details
+- Commands and verification outputs
+- Network diagrams
 - Logs and analysis
 
 These documents provide formal evidence of hands-on cybersecurity experience.
 
 ---
 
-*This portfolio is continuously updated as skills and projects evolve.*
+*This repository is actively maintained as skills and projects continue to evolve.*
