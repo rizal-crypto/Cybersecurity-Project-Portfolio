@@ -1,1 +1,54 @@
 
+# Honeypot Lab – Attacker Behaviour Analysis
+
+## Overview
+This project involved the design and deployment of a secure honeypot lab to capture attacker interactions and analyze malware distribution techniques. The environment was carefully isolated to prevent any impact on production systems.
+
+---
+
+## Environment
+- Honeypot System: Windows 10 Virtual Machine
+- Firewall & Gateway: pfSense (WAN / LAN / DMZ)
+- Log Management: ELK Stack
+- Traffic Capture: WinPcap
+- Deception Framework: Maltego Casefile
+
+---
+
+## Key Implementations
+- Deployed a honeypot system exposed to external traffic
+- Configured pfSense firewall rules to enforce strict isolation
+- Captured attacker interactions and packet-level network traffic
+- Centralized logs and traffic data using ELK Stack
+- Analyzed attacker tactics, techniques, and procedures (TTPs)
+
+---
+
+## Outcomes
+- Successfully captured and analyzed hostile interaction attempts
+- Verified effectiveness of firewall-based isolation
+- Gained insight into attacker behaviour and threat intelligence collection
+- Demonstrated secure deployment of deception-based defenses
+
+---
+
+## Security Concepts Demonstrated
+- Honeypot deployment and management
+- Firewall configuration and gateway security
+- Network traffic capture and forensic analysis
+- Threat intelligence and attacker behaviour analysis
+- Defensive security research techniques
+
+---
+
+## Tools Used
+- pfSense Firewall
+- ELK Stack
+- Maltego Casefile
+- WinPcap
+
+---
+
+## Evidence
+📄 **Honeypot_Report.pdf**  
+The attached report provides full documentation including configurations, logs, packet captures, and analysis.
