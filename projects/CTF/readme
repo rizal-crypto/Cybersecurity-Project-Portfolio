@@ -1,1 +1,50 @@
 
+# Capture The Flag (CTF) Virtual Machine
+
+## Overview
+This project involved the design and implementation of an educational Capture The Flag (CTF) virtual machine aimed at beginners in cybersecurity. The environment simulates real-world attack scenarios using common services, misconfigurations, and progressive challenges.
+
+The goal was to introduce foundational cybersecurity concepts through hands-on problem solving in a controlled and safe environment.
+
+---
+
+## Environment
+- Operating System: Ubuntu Server 18.04
+- Services: FTP, SSH, Apache, HTTP/HTTPS
+- Multiple Linux users with restricted access
+- Custom HTML web page for initial clues
+
+---
+
+## Key Implementations
+- Configured multiple exposed services to simulate an attack surface
+- Created multiple users with isolated directories and permissions
+- Embedded flags across different services and file systems
+- Implemented web-based information disclosure via HTML source inspection
+- Used steganography to hide flags in image and audio files
+- Implemented hashing and brute-force challenges using uncommon algorithms
+
+---
+
+## Security Concepts Demonstrated
+- Service enumeration and port scanning
+- Linux privilege separation and access control
+- Web reconnaissance techniques
+- Steganography and data hiding
+- Hash analysis and password cracking
+- Brute-force attack methodology
+
+---
+
+## Tools Used
+- Linux command-line utilities
+- Steganography tools
+- Hydra
+- John the Ripper
+- Hashcat
+
+---
+
+## Evidence
+📄 **CTF_Report.pdf**  
+The attached report includes full configuration steps, commands used, outputs, and analysis demonstrating the complete implementation of the CTF virtual machine.
