@@ -1,7 +1,6 @@
 # Cybersecurity-Project-Portfolio
 Cybersecurity project portfolio showcasing hands-on experience with CTF design, SIEM &amp; IDS/IPS deployment, network vulnerability analysis, and honeypot labs, backed by full technical documentation.
-# Cybersecurity Project Portfolio
-# Cybersecurity Project Portfolio
+
 
 👋 Hi, I’m **Mohamed Rizal Kapat**, an MSc Cybersecurity graduate with hands-on experience in offensive security, network security automation, and defensive threat analysis.
 
